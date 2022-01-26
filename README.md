@@ -1,5 +1,6 @@
 # weather-dashboard
 Week 6 Homework
+
 This week's project was to build a weather dashboard using a HTML, CSS, Javascript, jQuery, bootstrap, Moment.js, and third-party API-OpenWeather One Call API. 
 
 
@@ -45,6 +46,7 @@ The purpose of this project is apply the following newly learned skills:
 ## View of how deployed application looks
 
 
+![Screen Shot 2022-01-25 at 6 38 00 PM](https://user-images.githubusercontent.com/94095220/151111930-2396f240-edd3-4466-8fbb-31a0a23eb5f7.png)
 
 
 
