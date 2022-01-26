@@ -97,7 +97,7 @@ var displayUvIndex = function(index){
     if(index.value <=2){
         uvIndexValue.classList = "favorable"
     }else if(index.value >2 && index.value<=8){
-        uvIndexValue.classList = "moderate "
+        uvIndexValue.classList = "moderate"
     }
     else if(index.value >8){
         uvIndexValue.classList = "severe"
