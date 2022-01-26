@@ -1,5 +1,4 @@
 var apiKey = "972f8583e55791decea7d59a7b8ad8bf";
-var cities = "";
 var enterCityEL=document.querySelector("#enterCity");
 var cityInputEl=document.querySelector("#city");
 var todaysWeatherEl=document.querySelector("#todaysWeather");
@@ -8,6 +7,7 @@ var forecastTitle = document.querySelector("#forecast");
 var futureForecastEl = document.querySelector("#futureForecast");
 var searchHistoryButtonEl = document.querySelector("#prevHistory-buttons");
 var clear = document.querySelector("#clear");
+var cities = [];
 
 //Retrieves city input information
 var cityLookup = function(event){
@@ -158,8 +158,8 @@ var display5DayForecast = function(weather){
 
        futureForecastEl.appendChild(forecastEl);
     };
-
 };
+
 //Local storage for seach history
 var saveSearch = function(){
     localStorage.setItem("cities", JSON.stringify(cities));
